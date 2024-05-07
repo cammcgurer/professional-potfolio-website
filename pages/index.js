@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
           <p> "short description because page not updating"</p> 
           <div>
             <Image
-              src="../assets/cam_headshots.png"
+              src="/assets/cam_headshots.png"
               width={500}
               height={500}
               alt="Picture of the author"
