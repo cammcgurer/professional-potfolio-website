@@ -12,6 +12,7 @@ export default function Home() {
 
       <main>
         <Header title="Hello, I'm Cameron" />
+          <p> "short description because page not updating"</p> 
           <div>
             <Image
               src="../assets/cam_headshots.png"
