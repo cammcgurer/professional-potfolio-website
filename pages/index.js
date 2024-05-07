@@ -16,10 +16,9 @@ export default function Home() {
           <p> "short description because page not updating"</p> 
           <div>
             <Image
-              src="/assets/cam_headshots.png"
+              src="../assets/cam_headshots.png"
               width={500}
               height={500}
-              alt="Picture of the author"
             />
           </div>
         <Header title="About Me" />
