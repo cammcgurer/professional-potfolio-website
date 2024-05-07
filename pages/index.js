@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
+      <main style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
         <Header title="Hello, I'm Cameron" />
         <div>
           <Image
