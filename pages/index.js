@@ -11,21 +11,19 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
+      <main style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
         <Header title="Hello, I'm Cameron" />
-          <p> "short description because page not updating"</p> 
-          <div>
-            <Image
-              src="/cam_headshot.png"
-              width={500}
-              height={500}
-            />
-          </div>
+        <div>
+          <Image
+            src="/cam_headshot.png"
+            width={500}
+            height={500}
+            alt="Cameron"
+            style={{ borderRadius: '50%' }}
+          />
+        </div>
         <Header title="About Me" />
-          <p>"I am a young, energetic and determined individual who is invested in business, technology, and the intersection between the two. \
-              I want to be able to meld my tehnical experience and people skills together to make meaningful contributions \
-              to the people around me and the company I work for."
-          </p>
+          <p>I am a young, energetic and determined individual who is invested in business, technology, and the intersection between the two. I want to be able to meld my tehnical experience and people skills together to make meaningful contributions to the people around me and the company I work for.</p>
         <Header title="Projects" />
           <p>"Projects go here" 
           </p>
