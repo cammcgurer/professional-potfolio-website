@@ -49,8 +49,8 @@ body {
 
 .image-container {
   flex-shrink: 0;
-  borderRadius: 50%;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  border-radius: 50%;
 }
 
 .intro-text {
@@ -60,9 +60,14 @@ body {
 .intro-down-arrow {
   position: absolute;
   bottom: 20px;
-  height: 24px; 
-  color: #fff;
+  width: auto;
   animation: bounce 2s infinite; 
+}
+
+.intro-down-arrow img {
+  height: 24px; 
+  width: auto;
+  display: block;
 }
 
 @keyframes bounce {
