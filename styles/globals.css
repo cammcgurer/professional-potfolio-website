@@ -84,6 +84,10 @@ body {
     }
 }
 
+.project-section {
+  bottom: -20px
+}
+
 main {
   padding: 5rem 0;
   flex: 1;
