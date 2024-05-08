@@ -49,16 +49,20 @@ export default function Home() {
         <div className="project-section">
           <ul className="projects-list">
             <li>
-              <h3>Project Title 1</h3>
-              <p>Description of Project 1.</p>
+              <h3>Business Applications of Generative AI</h3>
+              <p>A practicum involving the research and study of ways that generative artificial intelligence can be used inthe business world</p>
             </li>
             <li>
-              <h3>Project Title 2</h3>
-              <p>Description of Project 2.</p>
+              <h3>Universal Machine</h3>
+              <p>A software implementation of a virtual machine coded in Rust. This program takes, as input, a data file consisting of instruction
+                 words and performs 14 different operations based on the information in the instruction. It uses eight registers, a two-dimensional array
+                 of memory, and a program counter</p>
             </li>
             <li>
-              <h3>Project Title 3</h3>
-              <p>Description of Project 3.</p>
+              <h3>Travelers on a Map</h3>
+              <p>Uses multithreading to launch a certain number of threads, or travelers, on a two-dimensional grid. 
+                 This grid contains moving and stationary walls that the travelers cannot pass through, an exit that the travelers are trying to reach, and
+                 a lock for every square to prevent deadlocks.</p>
             </li>
           </ul>
         </div>
