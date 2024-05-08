@@ -51,9 +51,9 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="resume-section">
-          <iframe src="path_to_your_resume.pdf" title="Resume" allow="autoplay" style="border:none;"></iframe>
-        </div>
+        // <div className="resume-section">
+        //   <iframe src="path_to_your_resume.pdf" title="Resume" allow="autoplay" style="border:none;"></iframe>
+        // </div>
                 
       </main>
 
