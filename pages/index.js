@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Next.js Starter!</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    // <div className="container">
+    //   <Head>
+    //     <title>Next.js Starter!</title>
+    //     <link rel="icon" href="/favicon.ico" />
+    //   </Head>
 
       <main>
         <div className="navbar">
@@ -56,12 +56,12 @@ export default function Home() {
 
         <div className="resume-section">
           <Header title="Resume" />
-          <embed src="Cam_McGurer_Resume.pdf" width="800px" height="2100px" />
+          // <embed src="Cam_McGurer_Resume.pdf" width="800px" height="2100px" />
         </div>
       </main>
 
       <Footer />
-    </div>
+    // </div>
   )
 }
 
