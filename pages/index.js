@@ -11,7 +11,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+      <main>
         <div>
           <Image
             src="/cam_headshot.png"
