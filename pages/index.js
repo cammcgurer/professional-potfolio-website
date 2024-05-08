@@ -50,7 +50,13 @@ export default function Home() {
         </div>
 
         <div className="resume-section">
-          <iframe src="Cam_McGurer_Resume.pdf" title="Resume" allow="autoplay" style="border:none;"></iframe>
+          <iframe
+            src="/resume.pdf"
+            width="60%"
+            height="500px"
+            style={{ border: 'none' }}
+            allow="fullscreen">
+          </iframe>
         </div>
                 
       </main>
