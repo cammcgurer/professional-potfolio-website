@@ -27,7 +27,6 @@ export default function Home() {
                 technology, and the intersection between the two. I want to be able to meld my tehnical experience and people skills together 
                 to make meaningful contributions to the people around me and the company I work for.
             </p>
-          />
         </div>
         <Header title="Projects" />
           <p>"Projects go here" 
