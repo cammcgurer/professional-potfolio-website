@@ -18,13 +18,13 @@ export default function Home() {
           </div>
           <div class="navbar-links">
             <a href="https://github.com/cammcgurer" target="_blank" aria-label="GitHub">
-              <img src="github.png" alt="GitHub">
+              <img src="github.png" alt="GitHub" />
             </a>
             <a href="https://www.linkedin.com/in/cameronmcgurer/" target="_blank" aria-label="LinkedIn">
-             <img src="linkedin.png" alt="LinkedIn">
+             <img src="linkedin.png" alt="LinkedIn" />
             </a>
             <a href="mailto:cammcgurer@gmail.com" aria-label="Email">
-              <img src="email.png" alt="Email">
+              <img src="email.png" alt="Email" />
             </a>
           </div>
         </div>
