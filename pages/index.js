@@ -23,9 +23,6 @@ export default function Home() {
             <a href="https://www.linkedin.com/in/cameronmcgurer/" target="_blank" aria-label="LinkedIn">
              <img src="linkedin.png" alt="LinkedIn" />
             </a>
-            <a href="mailto:cammcgurer@gmail.com" aria-label="Email">
-              <img src="email.png" alt="Email" />
-            </a>
           </div>
         </div>
     
@@ -57,6 +54,7 @@ export default function Home() {
         <div className="resume-section">
           <Header title="Resume" />
         </div>
+                
       </main>
 
       <Footer />
