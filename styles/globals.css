@@ -57,7 +57,7 @@ body {
   max-width: 30%;
 }
 
-.intro-down-arrow (
+.intro-down-arrow {
   position: absolute;
   bottom: 20px;
   font-size: 24px; 
