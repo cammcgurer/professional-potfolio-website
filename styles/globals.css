@@ -11,6 +11,21 @@ body {
   box-sizing: border-box;
 }
 
+.intro-section {
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.image-container {
+  flex-shrink: 0;
+}
+
+.intro-text {
+  max-width: 60%;
+}
+
 main {
   padding: 5rem 0;
   flex: 1;
