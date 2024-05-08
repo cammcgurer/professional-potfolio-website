@@ -49,11 +49,10 @@ export default function Home() {
           <Header title="Projects" />
         </div>
 
+        <Header title="Resume" />
         <div className="resume-section">
-          <Header title="Resume" />
           <iframe
             src="/Cam_McGurer_Resume.pdf"
-            style={{ border: 'none' }}
             allow="fullscreen">
           </iframe>
         </div>
