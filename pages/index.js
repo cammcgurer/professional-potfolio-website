@@ -56,7 +56,6 @@ export default function Home() {
 
         <div className="resume-section">
           <Header title="Resume" />
-          // <embed src="Cam_McGurer_Resume.pdf" width="800px" height="2100px" />
         </div>
       </main>
 
