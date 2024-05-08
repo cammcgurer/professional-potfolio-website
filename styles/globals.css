@@ -100,6 +100,31 @@ body {
   border: none; /* Ensures no border */
 }
 
+.project-section {
+  padding: 20px;
+}
+
+.projects-list {
+  list-style: none; /* Removes default list bullets */
+  padding: 0;
+}
+
+.projects-list li {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 8px; /* Adds rounded corners */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for depth */
+}
+
+.projects-list h3 {
+  color: #333; /* Dark color for headings */
+}
+
+.projects-list p {
+  color: #666; /* Lighter text color for descriptions */
+}
+
+
 main {
   padding: 5rem 0;
   flex: 1;
