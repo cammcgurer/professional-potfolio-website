@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-// import Footer from '@components/Footer'
+import Footer from '@components/Footer'
 import Image from 'next/image'
 
 export default function Home() {
@@ -39,7 +39,7 @@ export default function Home() {
           </p>
       </main>
 
-      // <Footer />
+      <Footer />
     </div>
   )
 }
