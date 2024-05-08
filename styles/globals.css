@@ -105,13 +105,17 @@ body {
 }
 
 .projects-list {
-  align-items: center;
+  display: flex;
+  flex-direction: column; /* Ensures the flex items are stacked vertically */
+  align-items: center; /* Centers the items horizontally in the flex container */
   list-style: none; /* Removes default list bullets */
   padding: 0;
+  width: 100%; /* Ensures the list takes full width of its container */
 }
 
 .projects-list li {
   max-width: 50%;
+  margin: 0 auto;
   margin-bottom: 15px;
   padding: 10px;
   border-radius: 8px; /* Adds rounded corners */
