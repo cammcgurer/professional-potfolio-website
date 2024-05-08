@@ -84,10 +84,6 @@ body {
     }
 }
 
-.project-section {
-  bottom: -20px
-}
-
 main {
   padding: 5rem 0;
   flex: 1;
@@ -105,7 +101,6 @@ code {
 }
 
 .container {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
