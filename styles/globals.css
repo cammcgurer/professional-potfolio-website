@@ -11,6 +11,27 @@ body {
   box-sizing: border-box;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8fafc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand {
+    font-size: 20px;
+}
+
+.navbar-links a {
+    margin-left: 10px;
+}
+
+.navbar-links img {
+    height: 24px; /* Adjust size as necessary */
+}
+
 .intro-section {
   display: flex; 
   align-items: center;
