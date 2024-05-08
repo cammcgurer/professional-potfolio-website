@@ -5,11 +5,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    // <div className="container">
-    //   <Head>
-    //     <title>Next.js Starter!</title>
-    //     <link rel="icon" href="/favicon.ico" />
-    //   </Head>
+    <div className="container">
+      <Head>
+        <title>Next.js Starter!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
       <main>
         <div className="navbar">
@@ -61,7 +61,7 @@ export default function Home() {
       </main>
 
       <Footer />
-    // </div>
+    </div>
   )
 }
 
