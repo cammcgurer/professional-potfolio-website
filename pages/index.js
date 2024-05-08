@@ -46,14 +46,12 @@ export default function Home() {
         </div>
 
         <div className="project-section">
-          <div className="project-title">
-            <h1>Projects</h1>
-          </div>
+          <Header title="Projects" />
         </div>
 
-        // <div className="resume-section">
-        //   <iframe src="path_to_your_resume.pdf" title="Resume" allow="autoplay" style="border:none;"></iframe>
-        // </div>
+        <div className="resume-section">
+          <Header title="Resume" />
+        </div>
                 
       </main>
 
@@ -61,4 +59,5 @@ export default function Home() {
     </div>
   )
 }
+
 
