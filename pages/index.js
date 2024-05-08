@@ -40,19 +40,23 @@ export default function Home() {
           </div>
           <div className="intro-text">
             <h1>Hello, I'm Cameron</h1>
-            <p>I am a young determined individual on the East Coast intersted in computer science, business, and the overlap between the two.
+            <p>I am a young determined individual on the East Coast interested in computer science, business, and the overlap between the two.
             </p>
           </div>
           <div className="intro-down-arrow">
             <img src="arrow.png" alt="Down Arrow" />
           </div>
         </div>
-        <Header title="Projects" />
-        <p>Projects go here</p>
-        <Header title="Resume" />
-        <p>pdf of resume</p>
-        <Header title="Contact Me" />
-        <p>Contact info (github, linkedin, email)</p>
+
+        <div className="project-section">
+          <div className="project-title">
+            <h1>Projects</h1>
+          </div>
+        </div>
+
+        <div className="resume-section">
+          <Header title="Resume" />
+        </div>
       </main>
 
       <Footer />
