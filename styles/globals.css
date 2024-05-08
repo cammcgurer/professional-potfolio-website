@@ -60,7 +60,7 @@ body {
 .intro-down-arrow {
   position: absolute;
   bottom: 20px;
-  font-size: 24px; 
+  height: 24px; 
   color: #fff;
   animation: bounce 2s infinite; 
 }
