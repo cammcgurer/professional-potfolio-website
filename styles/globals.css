@@ -16,6 +16,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 20px;
+  margin-top: 50px;
 }
 
 .image-container {
@@ -23,7 +24,7 @@ body {
 }
 
 .intro-text {
-  max-width: 60%;
+  max-width: 40%;
 }
 
 main {
