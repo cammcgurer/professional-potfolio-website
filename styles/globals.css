@@ -12,31 +12,35 @@ body {
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #f8fafc;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0px;
+  right: 0px; 
+  left: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #f8fafc;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .navbar-brand {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .navbar-links a {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .navbar-links img {
-    height: 24px; /* Adjust size as necessary */
+  height: 24px;
 }
 
 .intro-section {
   display: flex; 
   align-items: center;
   justify-content: center;
-  gap: 50px;
+  gap: 80px;
   height: 100vh;
   width: 100vw;
   margin-top: 200px
