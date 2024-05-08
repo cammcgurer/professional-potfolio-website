@@ -12,11 +12,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <div class="navbar">
-          <div class="navbar-brand">
+        <div className="navbar">
+          <div className="navbar-brand">
               <strong>Cameron McGurer</strong>
           </div>
-          <div class="navbar-links">
+          <div className="navbar-links">
             <a href="https://github.com/cammcgurer" target="_blank" aria-label="GitHub">
               <img src="github.png" alt="GitHub" />
             </a>
@@ -28,8 +28,9 @@ export default function Home() {
             </a>
           </div>
         </div>
-        <div className="intro-section">  {}
-          <div className="image-container">  {}
+    
+        <div className="intro-section">
+          <div className="image-container">
             <Image
               src="/cam_headshot.png"
               width={325}
