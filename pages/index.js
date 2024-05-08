@@ -36,13 +36,15 @@ export default function Home() {
               width={325}
               height={325}
               alt="Cameron"
-              style={{ borderRadius: '50%' }}
             />
           </div>
-          <div className="intro-text">  {}
+          <div className="intro-text">
             <h1>Hello, I'm Cameron</h1>
             <p>I am a young determined individual on the East Coast intersted in computer science, business, and the overlap between the two.
             </p>
+          </div>
+          <div className="intro-down-arrow">
+            <img src="arrow.png" alt="Down Arrow" />
           </div>
         </div>
         <Header title="Projects" />
