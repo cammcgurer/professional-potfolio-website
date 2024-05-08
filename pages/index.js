@@ -52,7 +52,7 @@ export default function Home() {
         </div>
 
         <div className="resume-section">
-          <Header title="Resume" />
+          <iframe src="path_to_your_resume.pdf" title="Resume" allow="autoplay" style="border:none;"></iframe>
         </div>
                 
       </main>
