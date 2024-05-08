@@ -51,7 +51,7 @@ export default function Home() {
 
         <div className="resume-section">
           <iframe
-            src="/resume.pdf"
+            src="/Cam_McGurer_Resume.pdf"
             width="60%"
             height="500px"
             style={{ border: 'none' }}
