@@ -84,20 +84,6 @@ body {
     }
 }
 
-.resume-section {
-  width: 100%; /* Full width of the container or adjust as necessary */
-  display: flex;
-  justify-content: center; /* Center the iframe horizontally */
-  padding: 20px 0; /* Adds some padding around the section */
-}
-
-.resume-section iframe {
-  height: 600px; /* Adjust the height to fit your design needs */
-  width: 80%; /* Adjust the width as needed */
-  border: none; /* Removes the border around the iframe */
-  overflow: auto; /* Enables scrolling within the iframe */
-}
-
 main {
   padding: 5rem 0;
   flex: 1;
