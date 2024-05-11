@@ -2,13 +2,13 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Image from 'next/image'
 
-<link type="text/css" rel="styles" href="../styles/globals.css" />
 export default function Home() {
   return (
     <div className="container">
       <Head>
         <title>Cameron McGurer Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <link type="text/css" rel="styles" href="../styles/globals.css" />
       </Head>
 
       <main>
