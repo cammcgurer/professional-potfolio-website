@@ -8,7 +8,6 @@ export default function Home() {
       <Head>
         <title>Cameron McGurer Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
-        <link type="text/css" rel="styles" href="../styles/globals.css" />
       </Head>
 
       <main>
@@ -28,16 +27,11 @@ export default function Home() {
     
         <div className="intro-section">
           <div className="image-container">
-            <Image
-              src="/headshot.png"
-              width={325}
-              height={325}
-              alt="Cameron"
-            />
+            <img src="/headshot.png" width={325} height={325} alt="Cameron" />
           </div>
           <div className="intro-text">
             <h1>Hello, I'm Cameron</h1>
-            <p>I am a young determined individual on the East Coast interested in computer science, business, and the overlap between the two.
+            <p>I am a young determined computer scientist on the East Coast interested in technology, business, and the overlap between the two.
             </p>
           </div>
           <div className="intro-down-arrow">
