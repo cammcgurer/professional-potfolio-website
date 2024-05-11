@@ -29,7 +29,7 @@ export default function Home() {
         <div className="intro-section">
           <div className="image-container">
             <Image
-              src="/cam_headshot.png"
+              src="/headshot.png"
               width={325}
               height={325}
               alt="Cameron"
@@ -70,7 +70,7 @@ export default function Home() {
         <Header title="Resume" />
         <div className="resume-section">
           <iframe
-            src="/Cam_McGurer_Resume.pdf"
+            src="/resume.pdf"
             allow="fullscreen">
           </iframe>
         </div>
