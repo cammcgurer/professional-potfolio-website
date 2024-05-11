@@ -1,8 +1,8 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-// import Footer from '@components/Footer'
 import Image from 'next/image'
 
+<link type="text/css" rel="styles" href="globals.css" />
 export default function Home() {
   return (
     <div className="container">
@@ -77,7 +77,6 @@ export default function Home() {
                 
       </main>
 
-      // <Footer />
     </div>
   )
 }
